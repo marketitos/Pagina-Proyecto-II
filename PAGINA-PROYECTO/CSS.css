@@ -12,6 +12,8 @@
     box-sizing: border-box;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     scroll-behavior: smooth;
+
+
 }
 
 
@@ -22,6 +24,7 @@ body{
     background: url("https://i.pinimg.com/originals/fc/48/68/fc48688993507d71fd61fb4c492914cc.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
     
 }
 
@@ -86,8 +89,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-
     padding-bottom: 500px;
+
 }
 
 /*Flecha*/
@@ -117,7 +120,8 @@ nav{
     background-color: rgba(224, 217, 217, 0);
     padding: 1rem 2rem;
     display: flex;
-    justify-content: space-between;
+
+    
 }
 
 a{
@@ -264,3 +268,21 @@ i{
 .card:nth-child(even){
     justify-self: right;
 }
+
+.IconoAnt{
+
+    margin-left: 730px;
+    position: fixed;
+
+
+}
+
+.IconoGit{
+    
+    margin-left: 680px;
+    position: fixed;
+
+
+
+}
+
